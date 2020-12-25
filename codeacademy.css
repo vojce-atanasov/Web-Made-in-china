@@ -1,0 +1,199 @@
+*{
+    text-decoration: none;    
+    font-family: 'Open Sans', sans-serif;
+}
+.wraper{
+    justify-content: space-between;
+    padding-top: 30px;
+}
+/* button{
+    background-color: blue;
+    color: white;
+    padding: 10px 34px;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+} */
+.he a{    
+    text-decoration: none;
+    float: right;
+    margin-right: 13px;
+    font-size: 16px;
+    color: black;
+    padding: 5px 20px 10px 20px;
+    /* direction: rtl;   za obratno bez da gi menjas mestata na broj code academy brojot */
+
+}
+button{
+    background: #0081ff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(57, 69, 125, 0.1);
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: Roboto;
+    width: 119%;
+    border: none;
+}
+.phone{
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: #0181ff;
+    
+}
+
+.menu_item {
+    margin-right: 13px;
+    padding: 10px 20px 10px 20px;
+    color: #222;
+    font-size: 16px;
+}
+.in_progress {
+    color: #0482ff;
+    border-radius: 16px;
+    background: rgba(0,0,140,.08);
+    padding: 6px;
+    font-size: 16px;
+    width: 216px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: 9% 0% 2% 0%
+}
+.live {
+    background: #14bf14;
+    color: #fff;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.body1{
+    margin: -28px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+.logo{
+    padding: 10px 20px 10px 0px;
+    margin: 0% 0% -13% 0%;
+    height: 23px
+}
+.phoneicon{
+    height: 22px;
+    float: left;
+    margin-right: 10px;
+
+}
+.home_text {
+    font-size: 2.8rem;
+    width: 46%;
+    font-weight: 600;
+    color: #142433;
+    font-family: Roboto;
+}
+.home_desc {
+    width: 41%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 28px;
+}
+.price_text {
+    background: #e8ebf7;
+    color: #0f80f3;
+    width: fit-content;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 200;
+    font-family: Roboto;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 179px;
+    margin: -2.6% 0% 0% 11%;
+}
+.right {
+    width: 40%;
+    margin: -26% 0% 0% 56%;
+    width: 40%;
+}
+.right img {
+    /* position: absolute; */
+    height: 528px;
+    margin-left: -150px;
+    margin-top: -200px;
+}
+.welcome_section {
+    background: linear-gradient(180deg, white, #f4f8fd);
+    padding-bottom: 129px;
+}
+.he a:hover{
+    border-bottom: 1px blue solid;
+}
+.process {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    margin-top: -115px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.outer-circle {
+    background: #eff2ff;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    position: relative;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.15), 0 0 7px #06060600;
+    z-index: 0;
+    margin: 0 auto;
+}
+.step_point {
+    width: 301px;
+    text-align: center;
+    margin-top: 30px;
+}
+.section {
+    padding-top: 80px;
+    padding-bottom: 51px;
+    background: linear-gradient(180deg, white, #f4f8fd);
+}
+.size {
+    width: 90%;
+    margin: 0 auto;
+}
+.blue {
+    background: linear-gradient(180deg, #ffffff, #f4f8fd);
+}
+.counter {
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #484848;
+    padding-top: 18px;
+}
+.inner-circle {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    top: 20px;
+    left: 20px;
+    margin: -5px 0px 0px -5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.15), 0 0 7px #eceffc;
+    z-index: 0;
+}
+.step_title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 29px;
+}
+
+
